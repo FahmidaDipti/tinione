@@ -1,0 +1,393 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+header
+{
+	padding-top: 50px;
+}
+
+.container
+{
+	width: 1200px;
+	background-color: #FCDB00;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.logo
+{
+
+width: 40%;
+
+float: left;
+
+display: flex;
+
+justify-content: center;
+
+padding-top: 26px;
+}
+.logo img
+{text-align: center;}
+nav
+{
+
+width: 60%;
+
+overflow: hidden;
+}
+nav ul
+{
+
+display: flex;
+
+justify-content: center;
+}
+nav ul li
+{
+
+display: flex;
+
+padding: 23px 23px;
+
+list-style: none;
+
+font-size: 20px;
+}
+nav ul li a
+{
+
+color: black;
+
+text-decoration: none;
+
+font-weight: 700;
+
+padding: 15px 17px;
+
+text-shadow: 0 0 1px #00000080;
+}
+nav ul li a:hover
+{
+	background-color: black;
+	box-shadow: 0 0 4px #8c886e4d;
+	color: #FCDB00;
+	border-radius: 5px;
+}
+.inspiration
+{
+	padding-bottom: 30px;
+}
+
+.content
+{
+
+width: 75%;
+
+margin: auto;
+}
+.col_1
+{
+
+width: 50%;
+
+padding-top: 100px;
+
+float: left;
+}
+.col_1 .text
+{
+	width: 68%;
+}
+.col_1 h2
+{
+
+padding-bottom: 20px;
+}
+.col_1 h5
+{
+
+padding-bottom: 20px;
+
+font-size: 17px;
+
+font-weight: 100;
+
+color: #000000a6;
+}
+.col_1 p
+{
+
+font-size: 13px;
+
+color: #0000009c;
+}
+.col_1  ul 
+{
+
+display: flex;
+
+justify-content: flex-start;
+
+padding-top: 15px;
+}
+.col_1 ul li
+{
+
+list-style: none;
+
+padding: 10px 15px;
+
+padding-left: 0;
+}
+.col_1 ul li a
+{
+
+color: black;
+
+text-decoration: none;
+}
+
+.col_1 ul li a i
+{
+	
+font-size: 30px;
+}
+.col_2
+{
+	
+width: 50%;
+	
+float: left;
+}
+.col_2 span
+{
+	
+height: 100%;
+	
+display: block;
+	
+text-align: center;
+}
+.feature
+{
+	width: 850px;
+	margin: auto;
+	height: auto;
+}
+.feature h2
+{
+
+padding: 20px 0;
+
+text-align: center;
+
+font-weight: bolder;
+
+text-shadow: 0 0 1px black;
+}
+.feature p
+{
+
+width: 70%;
+
+margin: auto;
+
+text-align: center;
+
+color: #00000087;
+
+font-size: 15px;
+
+font-weight: 600;
+}
+.feature_content
+{
+	width: 33.33%;
+	float: left;
+	padding: 50px 0;
+}
+.feature_content .icon
+{
+	width: 10%;
+	height: auto;
+	float: left;
+	padding-top: 4px;
+}
+.feature_content .icon i
+{
+	font-size: 24px;
+}
+
+.feature_text
+{
+
+width: 90%;
+
+float: left;
+
+padding-left: 10px;
+}
+.feature_text h4
+{
+
+font-size: 23px;
+
+color: #000000;
+
+text-transform: capitalize;
+}
+.feature_text p
+{
+
+text-align: initial;
+
+width: 100%;
+
+padding-top: 15px;
+}
+.end
+{
+	width: 1200px;
+	background-color: #010101;
+}
+
+.end-part .container
+{
+	background-color: #010101;
+	text-align: center;
+}
+.heading
+{
+	width: 60%;
+	margin: auto;
+	padding: 60px 0 40px 0;
+}
+.end-part .container h2
+{
+	color:#FCDB00;
+	padding-bottom: 15px;
+}
+
+.end-part .container p
+{
+	color: #ffffff9c;
+	font-size: 16px;
+}
+form input
+{
+	background-color: white;
+	padding: 20px;
+	width: 45%;
+	border-radius: 5px;
+	font-size: 20px;
+	box-shadow: 1px 1px 3px #fcdb0070;
+}
+
+input[type="submit"]
+{
+	color: black;
+	font-size: 20px;
+	padding: 20px 20px;
+	border-radius: 5px;
+	width: 10%;
+	margin-left: 15px;
+	font-weight: 600;
+	box-shadow: 1px 1px 3px #fcdb0021;
+}
+input[type="submit"]:hover
+{
+	border:1px solid #FCCD00;
+	color: #FCCD00;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.fontAwesome 
+{
+    padding: 65px 0;
+}
+.fontAwesome ul
+{
+
+display: flex;
+
+justify-content: center;
+}
+.fontAwesome ul li
+{
+
+padding: 10px;
+
+list-style: none;
+}
+.fontAwesome ul li a
+{
+
+}
+.fontAwesome ul li a i
+{
+
+font-size: 40px;
+
+height: 50px;
+
+width: 50px;
+
+line-height: 50px;
+
+color: black;
+
+background-color: #FCCD00;
+
+border-radius: 5px;
+}
+.fontAwesome ul li a i:hover
+{
+	border:1px solid #FCCD00;
+	color: #FCCD00;
+	border-radius: 5px;
+	background-color: black;
+}
+.adresses {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.col_1_4
+{text-align: left;}
+
+.col_1_4 h5
+{
+	color: #ffffffbf;
+	font-size: 25px;
+	font-weight: 200;
+}
+.adresses .col_1_4 p
+{
+
+text-transform: capitalize;
+
+color: #ffffffbf;
+
+font-size: 19px;
+cursor: pointer;
+}
+.adresses .col_1_4 p:hover
+{
+	color:#FCCD00; 
+}
+.inspiration .container form
+{
+
+}
+
+.inspiration .container form input
+{
+
+}
